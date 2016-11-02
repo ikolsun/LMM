@@ -6,9 +6,6 @@
 </head>
 <body>
 	<a href="">입장 </a><br/><br/>
-<video width="600" height="500" controls>
-   <source src= "../media/firstpage.mp4" type="video/mp4">
  
-</video> 
 </body>
 </html>
