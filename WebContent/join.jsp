@@ -4,7 +4,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title></title>
-  <script src="../../lib/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<link href="./css/bootstrap.css" rel="stylesheet">
+  <script src="./js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
   <!-- 다운받은거 그거에 맞는 스타일시트도 써야   -->
   <script src="./js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
   <script src="./js/scripts.js"type="text/javascript" ></script>
@@ -12,8 +13,8 @@
 
 </head>
 <body> 
-        <h2>회원 가입</h2>
-<table width="960" cellpadding="0" cellspacing="0" border="0" align="center">
+        <h2 align="center">회원 가입</h2>
+<table  class="table table-striped" width="960" cellpadding="0" cellspacing="0" border="0" align="center">
 <tr>
 <td colspan="2">
 <!--회원가입-->
@@ -81,20 +82,24 @@
 <tr> 
   	<td bgcolor="#E0E0E0"><font size="+0"/>&nbsp;&nbsp;&nbsp;&nbsp; 관심분야</td>  
   
-    <td>   <input class="check-all" name="favorite" type="checkbox" /><span>모든 분야</span><br/><hr/>
+    <td>  <div class="stats">
     &nbsp;&nbsp;&nbsp;   <input class="favorite" name="favorite" type="checkbox" value="humanities" />인문<br/>
           &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="socialsciences" />사회<br />
           &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="sciences" />과학<br />
          &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="culture" />문화<br />
          &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="etc" />기타<br />
-    
+         <hr/>
+      &nbsp;&nbsp;&nbsp;<input class="check-all" name="favorite" type="checkbox" /><span>모든 분야</span><br/>
     </td>
     </tr> 
  
     <tr> 
     <td align="center" colspan="2"> <br/>
-    <input type="submit" name ="joinyes"  value="확인" onclick=""/> &nbsp; &nbsp; &nbsp; 
-        <input type="button" name ="joinno"  value="취소" onclick=""/> <br/>&nbsp;</td>
+ 
+	<button class="btn btn-info">확인</button>
+		<button class="btn btn-default">취소</button>
+<!--     <input type="submit" name ="joinyes"  value="확인" onclick=""/> &nbsp; &nbsp; &nbsp;  -->
+<!--         <input type="button" name ="joinno"  value="취소" onclick=""/> <br/>&nbsp;</td> -->
 </tr>
 
 
