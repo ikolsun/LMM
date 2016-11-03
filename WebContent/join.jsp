@@ -4,9 +4,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title></title>
-</head>
-<h1>회원가입</h1>
+  <script src="../../lib/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- 다운받은거 그거에 맞는 스타일시트도 써야   -->
+  <script src="./js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/scripts.js"type="text/javascript" ></script>
 
+
+</head>
+<body> 
+        <h2>회원 가입</h2>
 <table width="960" cellpadding="0" cellspacing="0" border="0" align="center">
 <tr>
 <td colspan="2">
