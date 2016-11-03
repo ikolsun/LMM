@@ -11,11 +11,7 @@
 
 <body>
 <!--게시판 리스트-->
-<h2 align="center">게시판</h2>
-        <div class="table-responsive">
-        <div class="container-fluid"> 
-		<div class="row-fluid">
-
+<h2 align="center">게시판</h2> 
 <table class= "table  table-nonfluid  table-striped table-condensed"  width="50%" cellpadding="0" cellspacing="0" align="center">
 
 <tr align="center" valign="middle" bordercolor="#333333">

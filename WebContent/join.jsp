@@ -13,12 +13,9 @@
    
 </head>
 <body> 
-        <h2 align="center">회원 가입</h2>
-        <div class="table-responsive">
-        <div class="container-fluid"> 
-		<div class="row-fluid">
+        <h2 align="center">회원 가입</h2>   
         
-<table  class= "table  table-nonfluid  table-striped table-condensed" width="500"  border="0" align="center">
+<table  class= "table  table-nonfluid  table-striped table-condensed" width="50%"  border="0" align="center">
 <tr>
 <td colspan="2">
 <!--회원가입-->
