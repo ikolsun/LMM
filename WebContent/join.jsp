@@ -83,10 +83,10 @@
   	<td bgcolor="#E0E0E0"><font size="+0"/>&nbsp;&nbsp;&nbsp;&nbsp; 관심분야</td>  
   
     <td>  <div class="stats">
-    &nbsp;&nbsp;&nbsp;   <input class="favorite" name="favorite" type="checkbox" value="humanities" />인문<br/>
-          &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="socialsciences" />사회<br />
-          &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="sciences" />과학<br />
-         &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="culture" />문화<br />
+    &nbsp;&nbsp;&nbsp;   <input class="favorite" name="favorite" type="checkbox" value="humanities" />인문 
+          &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="socialsciences" />사회 
+          &nbsp;&nbsp;&nbsp;   <input class="favorite"  name="favorite" type="checkbox" value="sciences" />과학 
+         &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="culture" />문화 
          &nbsp;&nbsp;&nbsp;    <input class="favorite"  name="favorite" type="checkbox" value="etc" />기타<br />
          <hr/>
       &nbsp;&nbsp;&nbsp;<input class="check-all" name="favorite" type="checkbox" /><span>모든 분야</span><br/>
