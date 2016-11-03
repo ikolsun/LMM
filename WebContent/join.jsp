@@ -10,7 +10,7 @@
   <script src="./js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
   <script src="./js/scripts.js"type="text/javascript" ></script>
 
-
+   
 </head>
 <body> 
         <h2 align="center">회원 가입</h2>
