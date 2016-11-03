@@ -6,7 +6,6 @@
 <title></title>
 </head>
 <body>
-kikikikiki
-ssinbal
+whaththat
 </body>
 </html>
