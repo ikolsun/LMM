@@ -14,15 +14,19 @@
 </head>
 <body> 
         <h2 align="center">회원 가입</h2>
-<table  class="table table-striped" width="960" cellpadding="0" cellspacing="0" border="0" align="center">
+        <div class="table-responsive">
+        <div class="container-fluid"> 
+		<div class="row-fluid">
+        
+<table  class= "table  table-nonfluid  table-striped table-condensed" width="500"  border="0" align="center">
 <tr>
 <td colspan="2">
 <!--회원가입-->
 <form name="joinform" action="" method="" onSubmit="">
 <p align="center"/>
-<table border="0" width="80%" height="80%"></table>
+<table border="0" width="20%" height="20%"></table>
 <tr>
-	<td width="17%" bgcolor="#E0E0E0"><font size="+0"/> &nbsp;&nbsp;&nbsp;&nbsp; <em style="color:red">*</em>아이디</td>
+	<td  width="17%" bgcolor="#E0E0E0"><font size="+0"/> &nbsp;&nbsp;&nbsp;&nbsp; <em style="color:red">*</em>아이디</td>
     <td>&nbsp;&nbsp;&nbsp; <input type="text" name ="MEMBER_ID" size="10" maxlength="15"/>
     <input type="button" name ="confirm_id"  value="중복확인" onclick=""/> &nbsp;&nbsp;문자와 숫자를 조합하여 1~15자리로 만들어 주세요
      </td>
@@ -46,7 +50,7 @@
 <tr> 
     <td align="center" colspan="2"> <font size="0"/>  &nbsp; </td>
 </tr>
-<tr> 
+<tr > 
   	<td bgcolor="#E0E0E0"><font size="+0"/>&nbsp;&nbsp;&nbsp;&nbsp; <em style="color:red">*</em>이름</td>   
     <td>&nbsp;&nbsp;&nbsp; <input type="text" name="MEMBER_NAME" size="20"/></td>
 </tr>
@@ -108,5 +112,6 @@
 </td>
 </tr>
 </table>
+</div>
 </body>
 </html>
