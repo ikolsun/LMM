@@ -83,11 +83,6 @@
   <url-pattern>/pds</url-pattern>
   </servlet-mapping>
   
-  
-  
-  
-  
-  
      <!-- filter setting  -->
    <filter>
     <filter-name>LoginCheckFilter</filter-name>
